@@ -1,0 +1,6 @@
+type LastClaimed @entity {
+  id: String!
+  addresses: [Bytes!]!
+  updated: BigInt!
+  lastDistribution: BigInt
+}
